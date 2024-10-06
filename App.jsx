@@ -11,11 +11,10 @@ const App = () => {
       <Switch value={colorScheme === 'dark'} onChange={toggleColorScheme} />
       
       <TouchableOpacity className='bg-yellow-500 px-10 py-5 rounded-full'>
-        <Text>Click Me!</Text>
+        <Text className='text-xl'>Click Me!</Text>
       </TouchableOpacity>
-      <Text>
-        hello
-      </Text>
+      
+      <Text className='text-2xl'>hello world</Text>
     </View>
   )
 }
