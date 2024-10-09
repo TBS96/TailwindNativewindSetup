@@ -14,7 +14,7 @@ const App = () => {
         <Text className='text-xl'>Click Me!</Text>
       </TouchableOpacity>
       
-      <Text className='text-2xl my-12'>Hello World!</Text>
+      <Text className='text-2xl my-12 bg-red-600'>Hello World!</Text>
     </View>
   )
 }
